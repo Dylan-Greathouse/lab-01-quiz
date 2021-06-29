@@ -6,8 +6,8 @@ import { isAge, isCatOrDog, isLastName, isPetName, isYes, isNo } from '/utils.js
   // get user input
   // use user input to update state 
   // update DOM to reflect the new state
-const confirmed = confirm('Welcome!');
-console.log(confirmed);
+alert('Welcome!');
+
 
 
   //get the button element
@@ -33,53 +33,53 @@ quizButton.addEventListener('click', ()=>{
         const ans7 = prompt('Do I like styling?');
 
 
-        console.log(ans, ans1, ans2, ans3, ans4, ans5, ans6, ans7);
+        //console.log(ans, ans1, ans2, ans3, ans4, ans5, ans6, ans7);
       
         let score = 0;
 
         if (isLastName(ans)) {
             score++;
         }
-        console.log('score after checking ans', score);
+        //console.log('score after checking ans', score);
 
         if (isAge(ans1)) {
             score++;
         }
-        console.log('score after checking ans1', score);
+        //console.log('score after checking ans1', score);
 
         if (isCatOrDog(ans2)) {
             score++;
         }
-        console.log('score after checking asn2', score);
+       // console.log('score after checking asn2', score);
 
         if (isPetName(ans3)) {
             score++;
         }
-        console.log('score after checking asn3', score);
+       // console.log('score after checking asn3', score);
         
         if (isYes(ans4)) {
             score++;
         }
-        console.log('score after checking asn4', score);
+       // console.log('score after checking asn4', score);
         
         if (isYes(ans5)) {
             score++;
         }
-        console.log('score after checking asn5', score);
+       // console.log('score after checking asn5', score);
         
         if (isNo(ans6)) {
             score++;
         }
-        console.log('score after checking asn6', score);
+        //console.log('score after checking asn6', score);
         
         if (isYes(ans7)) {
             score++;
         }
        // console.log('score after checking ans3', score);
 
-       // console.log('Your Score', score);
+        alert('Your Score', score);
         results.textContent = `You got ${score} right!`;
     } else {
-        console.log('user cancelled');
+       // console.log('user cancelled');
     }
 });

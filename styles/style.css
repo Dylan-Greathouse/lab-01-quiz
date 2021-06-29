@@ -66,16 +66,6 @@ h2 {
     font-weight: bold;
 }
 
-.gutter-right {
-    margin-right: 20px;
-}
-
-.main-logo {
-    max-height: 200px;
-    max-width: 200px;
-    border-radius: 25%;
-}
-
 header img {
     height: var(--header-height);
 }
@@ -94,7 +84,40 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
-  
+
+/* classes */
+.gutter-right {
+    margin-right: 20px;
+}
+
+.main-logo {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 25%;
+}
+
+.latte-pic {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 25%;
+}
+
+/* #ID's */
+#favorite {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#about-me{
+    background-color: aqua;
+}
+
+#main-section {
+    background-image: ;
+}
+
+
+  /* keyframes */
   @keyframes pulse {
     20% {
       transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);

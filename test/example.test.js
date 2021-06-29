@@ -13,7 +13,7 @@ test('should return for yes-y strings', assert => {
     assert.equal(yesString, true);
     assert.equal(yString, true);
     assert.equal(yasString, true);
-})
+});
 
 test('should return for no-n strings', assert => {
     const yesString = isNo('no');
@@ -22,29 +22,29 @@ test('should return for no-n strings', assert => {
     assert.equal(yesString, true);
     assert.equal(yString, true);
     assert.equal(yasString, true);
-})
+});
 
 test('should return for true for correct Last name', assert => {
     const lastNameString = isLastName('greathouse');
     
     assert.equal(lastNameString, true);
     
-})
+});
 
 test('should return for true for age', assert => {
     const isAgeString = isAge('26');
     
     assert.equal(isAgeString, true);
-})
+});
 
 test('should return for true for age', assert => {
     const isCatOrDogString = isCatOrDog('cat');
     
     assert.equal(isCatOrDogString, true);
-})
+});
 
 test('should return for name of pet', assert => {
     const isPetNameString = isPetName('latte');
     
     assert.equal(isPetNameString, true);
-})
+});
