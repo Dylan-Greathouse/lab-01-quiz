@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-import { isAge, isCatOrDog, isLastName, isPetName, isYes, isNo } from '/utils.js';
+import { isAge, isCatOrDog, isLastName, isPetName, isYes, isNo } from './utils.js';
 // initialize state
 
 // set event listeners 
