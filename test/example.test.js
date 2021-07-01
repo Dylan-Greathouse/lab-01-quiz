@@ -2,7 +2,7 @@
  
 
 
-import { isYes, isNo, isLastName, isAge, isCatOrDog, isPetName } from '/utils.js';
+import { isYes, isNo, isLastName, isAge, isCatOrDog, isPetName } from '../utils.js';
 
 const test = QUnit.test;
 
